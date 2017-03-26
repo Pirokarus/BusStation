@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<station>
+  <bus>
+    <num>1</num>
+    <firstSt>пл. Минина и Пожарского</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>8</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>1</num>
+    <firstSt>пл. Минина и Пожарского</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>8</hour>
+    <min>15</min>
+  </bus>
+  <bus>
+    <num>1</num>
+    <firstSt>пл. Минина и Пожарского</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>8</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>1</num>
+    <firstSt>пл. Минина и Пожарского</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>8</hour>
+    <min>45</min>
+  </bus>
+  <bus>
+    <num>1</num>
+    <firstSt>пл. Минина и Пожарского</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>9</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>2</num>
+    <firstSt>Верхние Печёры</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>8</hour>
+    <min>50</min>
+  </bus>
+  <bus>
+    <num>2</num>
+    <firstSt>Верхние Печёры</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>9</hour>
+    <min>10</min>
+  </bus>
+  <bus>
+    <num>2</num>
+    <firstSt>Верхние Печёры</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>9</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>2</num>
+    <firstSt>Верхние Печёры</firstSt>
+    <lastSt>Автовокзал Щербинки</lastSt>
+    <hour>9</hour>
+    <min>50</min>
+  </bus>
+  <bus>
+    <num>т 18</num>
+    <firstSt>ТРЦ Седьмое небо</firstSt>
+    <lastSt>Верхние Печёры</lastSt>
+    <hour>8</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>т 18</num>
+    <firstSt>ТРЦ Седьмое небо</firstSt>
+    <lastSt>Верхние Печёры</lastSt>
+    <hour>8</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>т 18</num>
+    <firstSt>ТРЦ Седьмое небо</firstSt>
+    <lastSt>Верхние Печёры</lastSt>
+    <hour>9</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>т 18</num>
+    <firstSt>ТРЦ Седьмое небо</firstSt>
+    <lastSt>Верхние Печёры</lastSt>
+    <hour>9</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>т 81</num>
+    <firstSt>Янки Купалы</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>8</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>т 81</num>
+    <firstSt>Янки Купалы</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>9</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>т 81</num>
+    <firstSt>Янки Купалы</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>10</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>т 81</num>
+    <firstSt>Янки Купалы</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>11</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>26</num>
+    <firstSt>Литвинова</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>11</hour>
+    <min>0</min>
+  </bus>
+  <bus>
+    <num>26</num>
+    <firstSt>Литвинова</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>10</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>26</num>
+    <firstSt>Литвинова</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>9</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>26</num>
+    <firstSt>Литвинова</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>8</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>26</num>
+    <firstSt>Литвинова</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>7</hour>
+    <min>30</min>
+  </bus>
+  <bus>
+    <num>26</num>
+    <firstSt>Литвинова</firstSt>
+    <lastSt>Микрорайон Кузнечиха-2</lastSt>
+    <hour>6</hour>
+    <min>30</min>
+  </bus>
+</station>
