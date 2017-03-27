@@ -27,7 +27,11 @@ public class MySampleApplicationServiceImpl extends RemoteServiceServlet impleme
     @Override
     public Responce myMessage(Reqest reqest) {
 
-        String xmlPath = "C:\\Users\\Olimjon\\Documents\\TestProjects\\BasStationTable\\src\\com\\mySampleApplication\\server\\BusList.xml";
+
+        //String xmlPath = "src.com.mySampleApplication.server.BusList.xml";
+
+        ClassLoader classLoader = getClass().getClassLoader();
+        String xmlPath = classLoader.getResource("BusList.xml").getFile();
 
         List<FullBus> busList = new ArrayList<>();
 
@@ -83,13 +87,13 @@ public class MySampleApplicationServiceImpl extends RemoteServiceServlet impleme
                 for (FullBus bus: busList) {
 
                     boolean exist = true;
-                    if(reqest.getNumFiltr()!=null&&!bus.getNumber().equals(reqest.getNumFiltr())){
+                    if(reqest.getNumFiltr()!=null&&!bus.getNumber().equalsIgnoreCase(reqest.getNumFiltr())){
                         exist = false;
                     }
-                    if(reqest.getStartStationFiltr()!=null&&!bus.getFirstStation().equals(reqest.getStartStationFiltr())){
+                    if(reqest.getStartStationFiltr()!=null&&!bus.getFirstStation().equalsIgnoreCase(reqest.getStartStationFiltr())){
                         exist = false;
                     }
-                    if(reqest.getLastStationFiltr()!=null&&!bus.getLastStation().equals(reqest.getLastStationFiltr())){
+                    if(reqest.getLastStationFiltr()!=null&&!bus.getLastStation().equalsIgnoreCase(reqest.getLastStationFiltr())){
                         exist = false;
                     }
                     if(reqest.getStartTime()!=null&&bus.getTime().before(reqest.getStartTime())){

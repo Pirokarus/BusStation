@@ -223,7 +223,7 @@ public class MySampleApplication implements EntryPoint {
                 if (firstStation.getValue() != "") {
                     req.setStartStationFiltr(firstStation.getValue());
                 } else {
-                    req.setLastStationFiltr(null);
+                    req.setStartStationFiltr(null);
                 }
 
                 if (lastStation.getValue() != "") {
